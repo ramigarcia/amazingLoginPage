@@ -1,0 +1,6 @@
+.box {
+  background-color: var(--backgroundForm);
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+}

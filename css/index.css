@@ -1,0 +1,38 @@
+@import "./box.css";
+@import "./form.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --borderButtonForm: #1e7d91;
+  --borderBox: #20899d;
+  --backgroundForm: #282a39;
+}
+
+body {
+  background-image: linear-gradient(
+    to left top,
+    #6c54ac,
+    #5c68be,
+    #497acb,
+    #348bd5,
+    #219bdc
+  );
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+}
+
+.wrapper {
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
