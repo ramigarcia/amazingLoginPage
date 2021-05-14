@@ -1,6 +1,22 @@
 .box {
   background-color: var(--backgroundForm);
   max-width: 400px;
+  height: 500px;
   margin: auto;
-  padding: 30px;
+  position: relative;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  width: 100%;
+  background-color: var(--borderBox);
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }

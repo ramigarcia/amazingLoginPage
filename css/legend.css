@@ -1,0 +1,16 @@
+.legend {
+  margin: 35px 30px;
+  border: 1px solid red;
+}
+
+.title {
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #cbcace;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  color: #94969f;
+}
